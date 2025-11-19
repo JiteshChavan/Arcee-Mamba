@@ -52,7 +52,7 @@ If you use this codebase, or otherwise find our work valuable, please cite:
 ```bibtex
 @article{chavan2025arcee,
   title         = {Arcee: Differentiable Recurrent State Chain for Generative Vision Modeling with Mamba SSMs},
-  author        = {Chavan, Jitesh and Lal, Rohit and Kamat, Anand and Xu, Mengjia},
+  author        = {Jitesh Chavan, Rohit Lal, Anand Kamat, Mengjia Xu},
   journal       = {arXiv preprint arXiv:2511.11243},
   year          = {2025},
   archivePrefix = {arXiv},
