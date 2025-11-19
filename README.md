@@ -1,9 +1,12 @@
 # Arcee Selective Scan Mamba Layer
 
-![Arcee Mamba](assets/arcee_selective_scan.png "Arcee Selective Scan")
 > **Arcee Selective Scan Mamba Layer: **\
 > Jitesh Chavan, Anand Kamat*, Rohit Lal*, Mengjia Xu\
 > Paper: https://arxiv.org/abs/2511.11243
+
+![Arcee Mamba](assets/arcee_selective_scan.png "Arcee Selective Scan")
+*(a)* In a vanilla Mamba block, the selective scan is strictly causal: the state is initialized with $h^{(k)}(0)=0$, the terminal state $h^{(k)}(T)$ is discarded after producing $y$, and the next block again starts from zero. Darker cells indicate positions that have accumulated more context (later timesteps have seen a larger prefix of the sequence).  
+*(b)* Arcee extends the scan to a two-port block: the terminal SSR $h^{(k)}(T)$ is reused as the initial state $h^{(k+1)}(0)$ of the next block via a differentiable boundary map, creating a recurrent state chain across depth with a valid gradient path and no change to the intra-block dynamics.
 
 
 ## Overview
