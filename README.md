@@ -44,3 +44,21 @@ bash run_test.sh   # if this runs, setup is successful
 
 ## Usage
 ![demo](assets/usage.png "Arcee Selective Scan")
+
+## Citation
+
+If you use this codebase, or otherwise find our work valuable, please cite:
+
+```bibtex
+@article{chavan2025arcee,
+  title         = {Arcee: Differentiable Recurrent State Chain for Generative Vision Modeling with Mamba SSMs},
+  author        = {Chavan, Jitesh and Lal, Rohit and Kamat, Anand and Xu, Mengjia},
+  journal       = {arXiv preprint arXiv:2511.11243},
+  year          = {2025},
+  archivePrefix = {arXiv},
+  eprint        = {2511.11243},
+  primaryClass  = {cs.CV},
+  doi           = {10.48550/arXiv.2511.11243},
+  url           = {https://arxiv.org/abs/2511.11243}
+}
+```
